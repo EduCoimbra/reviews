@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/8e58c9e13a.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,500;0,900;1,200;1,500;1,900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <title>Reviews</title>
+</head>
+<body>
+
+  <main>
+    <h1>A page of reviews</h1>
+    <section class="container">
+      <div class="title">
+        <h2>Our reviews</h2>
+      </div>
+
+      <article class="review">
+        <div class="img-container">
+          <img src="./person.png" alt="Person review" id="person-img">
+          <i class="fa-solid fa-quote-left fa-2xl"></i>
+        </div>
+        <div class="data-container">
+          <h4 id="author">Eduardo Coimbra</h4>
+          <p id="job">Web Developer</p>
+          <p id="info">I'd like to apreciate this company for its great efforts it has been implemented in order to help us grow up our busnesses in Canada. I hope you are the best company in this area in some years. It's a pleasure have you as a partner!</p>
+        </div>
+
+        <!-- Preview buttons -->
+        <div class="button-container">
+          <button class="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <!-- Randon button -->
+        <button class="random-btn">Surprise me</button>
+      </article>
+    </section>
+  </main>
+
+  <script src="reviews.js"></script>
+</body>
+</html>

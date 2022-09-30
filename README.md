@@ -8,7 +8,7 @@ The page has four stylized cards that show image, name, profession and a short t
 - HTML
 - CSS
 
-## What I learnt with this project
+## What I learnt from this project
 - to select items by using getElementById and querySelector
 - to use the event listener "DOMContentLoaded"
 - to iterate objects into an array and show its values on the page

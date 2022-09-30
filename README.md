@@ -1,5 +1,5 @@
 # Reviews
- > A page with four reviews on the format of cards.
+ > A page with four reviews in a card format.
 
 The page has four stylized cards that show image, name, profession and a short text about each person. It also has two arrows that will be used to shift the cards and a button that when clicked on shows a random card.
 

@@ -9,9 +9,9 @@ The page has four stylized cards that show image, name, profession and a short t
 - CSS
 
 ## What I learnt with this project
-- Select items by using getElementById and querySelector
+- to select items by using getElementById and querySelector
 - to use the event listener "DOMContentLoaded"
-- iterate objects into an array and show its values on the page
+- to iterate objects into an array and show its values on the page
 
 ![preview](./.github/site-preview.png)
 
